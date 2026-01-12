@@ -10,7 +10,7 @@ import lombok.*;
 @Builder
 @Table (name = "users")
 @Entity
-public class Users {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
